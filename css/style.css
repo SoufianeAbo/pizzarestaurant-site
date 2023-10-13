@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+:root {
+    --bg-color: rgb(0, 0, 0);
+    --text-color: white;
+    --wb-color: #f2c94c;
+    --wb-color2: rgba(242, 201, 76, 0.20);
+}
+
+.navbar {   
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    align-items: center;
+}
+
+p, a {
+    font-family: 'Ruda', sans-serif;
+}
+
+.navbar p:first-child {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.44px;
+    line-height: 0.1px;
+    width: 174px;
+    padding-right: 500px;
+}
+
+.navbar p {
+    width: 131px;
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+hr {
+    border-bottom: 9px solid var(--wb-color);
+    width: 482px;
+}
+
+#bigDivisor {
+    border-bottom: 9px solid var(--wb-color);
+    margin-top: 40px;
+    width: 882px;
+}
+
+.belowHeader {
+    width: 100%;
+    position: absolute;
+    height: 944px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%,
+                                            rgba(39.31, 39.31, 39.31, 0.1) 0.01%,
+                                            rgba(0, 0, 0, 0.13) 13.02%,
+                                            rgb(0, 0, 0) 100%), 
+                                            url("../img/wood.png");
+    background-size: cover;
+}
+
+.belowHeader img {
+    width: 100%;
+    height: 1048px;
+    margin-top: 95px;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: 'Quattrocento', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 1.2px;
+    margin-top: 206px;
+    color: var(--text-color);
+}
+
+.belowHeader p {
+    width: 745px;
+    font-weight: 400;
+    color: var(--text-color);
+    letter-spacing: 2.25px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bodyPanel {
+    background-color: var(--bg-color);
+    overflow: hidden;
+    top: 100%;
+    position: relative;
+    height: 2848px;
+    z-index: 2;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery img {
+    width: 1271px;
+}
+
+.delivery p {
+    text-align: center;
+    width: 1277px;
+    line-height: 40px;
+    letter-spacing: 2.25px;
+    font-size: 25px;
+    color: var(--text-color);
+}
+
+strong {
+    color: var(--wb-color);
+    font-size: 50px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4.5px;
+    text-decoration: underline;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 30px;
+    width: 770px;
+    border: 3px solid var(--wb-color);
+    border-radius: 30px;
+    background-color: var(--wb-color2);
+    padding: 20px;
+    font-family: 'Quattrocento', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--text-color);
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: var(--wb-color);
+    width: 820px;
+    cursor: pointer;
+}
+
+#contact {
+    height: 3200px;
+}
+
+#menu {
+    height: 2000px;
+}
+
+#reverse {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+#reverse h1 {
+    width: 500px;
+    text-align: right;
+}
+
+#aboutUsPage {
+    height: 3100px;
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutUs h1 {
+    width: 474px;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.aboutUs hr {
+    width: 474px;
+    border-bottom: 9px solid var(--wb-color);
+}
+
+.aboutUs p, .aboutUs a {
+    width: 474px;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2.25px;
+    line-height: 40px;
+    color: var(--text-color);
+}
+
+.aboutUs a, #button {
+    color: var(--wb-color);
+    padding: 5px;
+    border: 2px solid var(--wb-color);
+    border-radius: 2px;
+}
+
+#button {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.aboutUs div:last-child {
+    margin-top: 206px;
+}
+
+#findusHeader {
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 0;
+}
+
+.findUs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.findUs p, #preparationP {
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 40px;
+    letter-spacing: 2.25px;
+}
+
+.findUs p {
+    width: 600px;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flexContainer h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 30px;
+    width: 20px;
+}
+
+.flexContainer p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    width: 400px;
+}
+
+.flexContainer div:last-child {
+    margin-left: 30px;
+}
+
+#money {
+    color: var(--wb-color);
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#preparationP {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 50px;
+}
+
+.preparationPics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    top: 100%;
+    background-image: url("../img/wood.png");
+    background-size: cover;
+}
+
+footer img {
+    position: relative;
+    height: 1048px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -500px;
+}
+
+footer p {
+    width: 928px;
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 0;
+    position: relative;
+    margin: 0 auto;
+    color: var(--text-color);
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMedia img {
+    width: 97px;
+    height: 95px;
+    margin-top: 0;
+}
+
+.copyright {
+    position: absolute;
+    background-color: var(--bg-color);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.copyright p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
