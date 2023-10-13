@@ -25,7 +25,15 @@ p, a {
     font-family: 'Ruda', sans-serif;
 }
 
-.navbar p:first-child {
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar li:first-child {
     font-weight: 400;
     font-size: 24px;
     text-align: center;
@@ -35,7 +43,7 @@ p, a {
     padding-right: 500px;
 }
 
-.navbar p {
+.navbar li {
     width: 131px;
     font-weight: 400;
     color: var(--text-color);
